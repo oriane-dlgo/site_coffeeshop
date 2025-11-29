@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mon Panier</title>
+    <link rel="stylesheet" href="./panier.css" />
+  </head>
+  <body>
+    <header>
+      <a href="../home/cozycoffee.html" id="shop">Shop Thé Grains</a>
+      <div class="bouton"><p>☰</p>
+        <div class="menu-toggle">
+          <ul>
+            <li><a href="../home/cozycoffee.html#shop">Accueil</a></li>
+            <li><a href="../home/cozycoffee.html#titrethé">Nos thés</a></li>
+            <li><a href="../home/cozycoffee.html#titrecafé">Nos cafés</a></li>
+            <li><a href="../home/cozycoffee.html#qui">Qui nous sommes</a></li>
+            <li><a href="../home/cozycoffee.html#infoentreprise">Nos contacts</a></li>
+            <li><a href="../connexion/connection.html">Se connecter</a></li>
+            <li><a href="./panier.html">Panier</a></li>
+          </ul>
+        </div>
+      </div>
+      <nav class="navbar">
+        <a href="../home/cozycoffee.html#shop">Accueil</a>
+        <a href="../home/cozycoffee.html#titrethé">Nos thés</a>
+        <a href="../home/cozycoffee.html#titrecafé">Nos cafés</a>
+        <a href="../home/cozycoffee.html#qui">Qui nous sommes</a>
+        <a href="../home/cozycoffee.html#infoentreprise">Nos contacts</a>
+        <a href="../connexion/connection.html">Se connecter</a>
+        <a href="./panier.html"
+          ><img src="../assets/icone_panier.png" alt="Panier"
+        /></a>
+      </nav>
+    </header>
+
+    <main>
+      <div class="panier">
+        <h2>Articles dans le Panier</h2>
+        <ul class="panier-items">
+          <li class="panier-item">
+            <img src="../assets/dammann earl grey.jpeg" alt="Produit 1" />
+            <div>
+              <h3>Thé Dammann Earl Grey</h3>
+              <p>Prix : 10,00 €</p>
+              <p>Quantité : 2</p>
+            </div>
+          </li>
+          <li class="panier-item">
+            <img src="../assets/dammann earl grey.jpeg" alt="Produit 2" />
+            <div>
+              <h3>Thé Dammann Vanille</h3>
+              <p>Prix : 5,00 €</p>
+              <p>Quantité : 1</p>
+            </div>
+          </li>
+          <!-- Ajoutez d'autres articles ici -->
+        </ul>
+        <div class="panier-footer">
+          <p>Total : <span id="total">25,00 €</span></p>
+          <button type="button" id="checkout-btn">Valider la commande</button>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <h3>Nous contacter</h3>
+      <div id="infoentreprise">
+        <ul>
+          <li><span style="font-size: 25px">&#128379;</span> 06.78.98.09.67</li>
+          <li>
+            <span style="font-size: 25px">&#128386;</span>
+            choppethegrains@gmail.com
+          </li>
+          <li>
+            <span style="font-size: 25px">&#128392;</span> 77 rue des boissons
+            chaudes, 44000 NANTES
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>

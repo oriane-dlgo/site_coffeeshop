@@ -1,0 +1,222 @@
+body{
+background: url(../assets/background\ unigrain2.jpeg);
+
+}
+
+header {
+    top: 0;
+    padding: 20px 60px;
+    background-color: rgba(79, 32, 12, 0.897);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    margin: 10px;
+
+}
+#shop {
+    font-size: 25px;
+    color: burlywood;
+    text-decoration: none;
+    font-weight: 700;
+}
+.navbar a{
+    
+    font-size: 18px;
+    color: burlywood;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 30px;
+    
+}
+
+.bouton{
+    position: relative;
+    display: none;
+    color: blanchedalmond;
+    
+
+}
+.bouton:hover .menu-toggle{
+    display: block;
+}
+.menu-toggle{
+    display: none;
+    cursor: pointer;
+    position: absolute;
+    width: 250px;
+    right: 0px;
+    font-family: "Afacad Flux", sans-serif;
+    background-color: blanchedalmond;
+    border: 1px blanchedalmond solid;
+    font-size: 20px;
+    border-radius: 6px; 
+}
+.menu-toggle ul{
+    display: flex;
+    flex-direction: column;
+    
+}
+.menu-toggle ul li a{
+    white-space: nowrap;
+    color: rgba(54, 13, 13, 0.639);
+    text-decoration: none;
+}
+@media(max-width: 600px){
+    .navbar {
+        display: none;
+    }
+    .bouton{
+        display: block;
+    }
+}  
+figcaption{
+    font-family: "Baloo Paaji 2", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+    color: rgba(79, 32, 12, 0.897);
+}
+
+p{
+    font-family: "Baloo Paaji 2", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: burlywood;
+    margin: 15px;
+    text-align: justify;
+    padding: 5px;
+    font-size: 17px;
+}
+
+main{
+    padding: 10px;
+    background:  rgba(79, 32, 12, 0.897);
+    margin: 10px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400..800&display=swap');
+
+h2{
+    font-family: "Baloo Paaji 2", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: burlywood;
+    padding: 5px;
+    font-size: 35px;
+    text-align: center;
+}
+
+h3{
+        font-family: "Baloo Paaji 2", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        text-decoration: double;
+        font-size: 25px;
+        text-decoration: underline;
+        color: burlywood;
+        padding: 10px;
+        margin: 10px;
+}
+
+figcaption{
+    font-family: "Baloo Paaji 2", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+div#thénoir{
+    padding: 10px;
+    border: 1px solid rgba(79, 32, 12, 0.897);
+    background-color: burlywood;
+    margin: 5px 20px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    box-shadow: 7px 12px 18px 0px rgba(54, 13, 13, 0.639);
+    
+}
+
+section img{
+    background-color: rgba(54, 13, 13, 0.639);
+    padding: auto;
+    border: 3px solid rgba(79, 32, 12, 0.897);
+    margin: auto;
+    border-radius: 1%;
+
+}
+
+div#thénoirtype{
+    
+    display: inline-block;
+    margin-right: 1rem;
+    margin: 1%;
+    padding: 20px;
+}
+
+div#thévert{
+    padding: 10px;
+    border: 1px solid rgba(79, 32, 12, 0.897);
+    background-color: burlywood;
+    margin: 5px 20px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    box-shadow: 7px 12px 18px 0px rgba(54, 13, 13, 0.639);
+    
+}
+
+div#théverttype{
+    display: inline-block;
+    margin-right: 1rem;
+    margin: 1%;
+    padding: 20px;
+
+}
+
+footer{
+
+    background-color: rgba(79, 32, 12, 0.897);
+    color: burlywood;
+    padding: 0.5%;
+    margin: 10px;
+}
+
+div#infoentreprise{
+    position: relative;
+    left: 6%;
+
+}
+
+li{
+    list-style: none;
+    font-family: "Baloo Paaji 2", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: burlywood;
+    display: inline-block;
+    margin-right: 10%;
+    padding: 10px;
+
+}
+a{
+    color : burlywood
+}
+
+
+@media screen and (max-width: 600px){
+    img{
+        width: 100%;
+    
+    }
+
+    h3{
+        font-size: 25px;
+
+    }
+
+    h2{
+        font-size: 35px;
+    }
+
+}
+
